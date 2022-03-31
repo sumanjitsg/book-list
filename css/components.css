@@ -1,0 +1,33 @@
+/* containers */
+.container {
+  padding: 1rem calc(100vw - 90%);
+  overflow: hidden;
+}
+
+/* form controls */
+.control-group label {
+  display: block;
+  font-weight: 700;
+}
+
+.control-group input {
+  width: 100%;
+  margin-block-start: .5rem;
+  padding: .5rem;
+  border-radius: .2rem;
+  font-size: .9rem;
+}
+
+.btn {
+  padding: .5rem;
+  border-radius: .2rem;
+  font-size: .9rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align: center;
+  font-weight: 700;
+  color: var(--color-dark);
+  cursor: pointer;
+  inline-size: 100%;
+}

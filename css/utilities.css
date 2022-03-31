@@ -1,0 +1,38 @@
+/* spacing */
+.mbs-1 {
+  margin-block-start: 1rem;
+}
+
+/* flex / grid */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.separator {
+  grid-column: 1 / -1;
+  border: .5px solid;
+}
